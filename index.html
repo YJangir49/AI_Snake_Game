@@ -28,11 +28,11 @@
 
 
 <body onload="init();">
-<input type="button" class="btn btn-success" style="width: 5%" value="Start" onclick="start();">&nbsp;&nbsp;
-<input type="button" class="btn btn-danger" style="width: 5%" value="Stop" onclick="stop();">&nbsp;&nbsp;
-<input type="button" class="btn btn-success" style="width: 5%" value="Pause" onclick="pause();">&nbsp;&nbsp;
-<input type="button" class="btn btn-success" style="width: 5%" value="Resume" onclick="resume();">&nbsp;&nbsp;<br><br>
-<select id="search" onchange="change_search();">
+<input type="button" class="btn btn-success" style="width: 7.5%" value="Start" onclick="start();">&nbsp;&nbsp;
+<input type="button" class="btn btn-danger" style="width: 7.5%" value="Stop" onclick="stop();">&nbsp;&nbsp;
+<input type="button" class="btn btn-success" style="width: 8%" value="Pause" onclick="pause();">&nbsp;&nbsp;
+<input type="button" class="btn btn-success" style="width: 8%" value="Resume" onclick="resume();">&nbsp;&nbsp;<br><br>
+<select id="search" style="width: 33.2%" onchange="change_search();">
 <option>BFS</option>
 <option>DFS</option>
 <option>A* - H1</option>
@@ -42,7 +42,7 @@
 
 <br>
 <div class="pokar">
-  <canvas id="canvas" width="300" height="300"></canvas>
+  <canvas id="canvas" width="500" height="500"></canvas>
 <div id="stats" style="float:right;width:300px;">
 <h1><strong>Food Eaten: <span id="food_val"></span></strong></h1>
 <h1><strong>Moves: <span id="moves_val"></span></strong></h1>

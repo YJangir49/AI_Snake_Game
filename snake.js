@@ -4,9 +4,9 @@ var ctx;
 
 //config object used to set the parameters of the game. This object is passed to the worker thread to initialize it
 var config = new Object();
-config.grid_size = 15;
-config.number_obstacles =5;
-config.square_size = 20;
+config.grid_size = 20;
+config.number_obstacles =12;
+config.square_size = 25;
 config.snake_length = 5;
 config.search = 'BFS';
 config.runTimeout = 0;
